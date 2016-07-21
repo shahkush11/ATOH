@@ -2,60 +2,96 @@
 <html>
 <head>
 	<title>A Touch of Humanity</title>
+	<link rel="stylesheet" href="CSS/IconSocial.css" media="all">
 	<link rel="stylesheet" href="CSS/bootstrap.min.css">
 	<link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
 	<div class="container" id="header">
-		<div class="col-md-1" id="IconSocial">
-			<a href="https://www.facebook.com/ATouchOfHumanity.2016/?fref=nf#"><img src="Assets/IconSocial/32x32/Facebook-32.png"></a>
-			<a href="https://twitter.com/ATouch_Humanity"><img src="Assets/IconSocial/32x32/Twitter-32.png"></a>
+		<div class="col-md-1" class="rollover-buttons" >
+			<a href="https://www.facebook.com/ATouchOfHumanity.2016/?fref=nf#" target="_blank"><div class="facebook-hover social-slide"></div></a>
+			<a href="https://twitter.com/ATouch_Humanity" target="_blank"><div class="twitter-hover social-slide"></div></a>
+			<a href="mailto:touchofhumanity1@gmail.com" target="_blank"><div class="mail-hover social-slide"></div></a>	
 		</div>
-		<div class="col-md-10" id="head">
-			<img src="Assets/Logo.png">
+		<div class="col-md-11"><br><br><br></div>
+		<div class="col-md-2"><br><br><br></div>
+		<div class="col-md-6" >
+			<img src="Assets/Logo.png" id="head1">
+			<div id="head">
 			<h1>A Touch of Humanity</h1>
 			<h6>Adding Colour To Life</h6>
+			</div>
 		</div>
+		<div class="col-md-3"><br><br><br></div>
 	</div>
 		<div id="menu">
 			<div id="menu1" class="col-md-3">
-				<a href=""><h3>Message From Us</h3></a>
+				<a href="#box1"><h3>Message From Us</h3></a>
 			</div>
 			<div id="menu2" class="col-md-3">
-				<a href=""><h3>Our Projects</h3></a>
+				<a href="#box2"><h3>Our Projects</h3></a>
 			</div>
 			<div id="menu3" class="col-md-3">
-				<a href=""><h3>About Us</h3></a>
+				<a href="#box3"><h3>About Us</h3></a>
 			</div>
 			<div id="menu4" class="col-md-3">
-				<a href=""><h3>Contact Us</h3></a>
+				<a href="#box4"><h3>Contact Us</h3></a>
 			</div>
 		</div>
-		<div class="container">
+		<div>
 			<div class="col-md-12" id="box1">
 				<h3>Message From Us...</h3>
 				<p>Every significant change starts with small steps, so did our project. We are the proud members of the touch of humanity project, which started as a small class project of 12G of Oshwal Academy, but as we carried on, it became more than just a project but an important part of our lives, a fire that ignited in our hearts, one which we wish to keep forever burning even after we leave the academy.</p>
 				<p>In our first humble attempt to bring happiness to the needy children, we visited Ngalaliya Primary School in the poverty stricken region of Lukenya in March 2016. In preparation for the project work ahead, we gave our maximum energies to collecting funds for the children. Toiling day and night our team managed to collect some respectable amount of funds but not sufficient to provide them with all basic necessities. The funds raised were adequate to provide some necessities such as water, food, educational materials, sanitary towels, solar lantern and clothing. Since the region is poor, electricity is not provided and we provided them with a few solar lanterns. Educational materials are expensive to supply and maintain especially with our limited internal funding.</p>
 				<p>With sufficient funds we will be able to provide the children with the educational resources they need to study, food, clean water, good lighting, and appropriate washrooms to enable them to study well and stay in a safe environment.</p>
-				<p>Therefore we appeal to everyone out there reading this to donate to this noble course. Please help us to provide for these children and keep them in school. Every contribution given will be very much appreciated go a long way in assisting us to bring a smile to a child’s face. Help us create a learned and useful generation!!</p>
+				<p>Therefore we appeal to everyone out there reading this to donate to this noble course. Please help us to provide for these children and keep them in school. Every contribution given will be very much appreciated go a long way in assisting us to bring a smile to a child's face. Help us create a learned and useful generation!!</p>
 				<p>You may feel like a drop in a bucket, but every drop counts.</p>
+				<img src="Assets/Images/IMG_0187.JPG" id="picture">
 			</div>
 		</div>
-		<div class="container">
+		<div>
 			<div class="col-md-12" id="box2">
 				<h3>Our Projects</h3>
+				<img src="Assets/Images/Poster.png">
 			</div>
 		</div>
-		<div class="container" id="box3">
-			<div class="col-md-12">
+		<div>
+			<div class="col-md-12" id="box3">
 				<h3>About Us</h3>
+				<div class="slider_wrapper">
+				<ul id="image_slider">
+					<li><img src="Assets/Images/IMG_0074.JPG"></li>
+					<li><img src="Assets/Images/"></li>
+					<li><img src="Assets/Images/"></li>
+					<li><img src="Assets/Images/"></li>
+					<li><img src="Assets/Images/"></li>
+					<li><img src="Assets/Images/"></li>
+					<li><img src="Assets/Images/"></li>
+					<li><img src="Assets/Images/"></li>
+					<li><img src="Assets/Images/"></li>
+					<li><img src="Assets/Images/"></li>
+					<li><img src="Assets/Images/"></li>
+				</ul>
+					<span class="nvgt" id="prev"></span>
+					<span class="nvgt" id="next"></span>
+				</div>
 			</div>
 		</div>
-		<div class="container" id="box4">
-			<div class="col-md-12">
+		<div class="big-buttons">
+			<div class="col-md-12" id="box4">
 				<h3>Contact Us</h3>
+				<ul>
+					<li><a href="#" class="facebook-big" class="col-md-4">Facebook</a></li>
+					<li><a href="#" class="twitter-big" class="col-md-4">Twitter</a></li>
+					<li><a href="#" class="mail-big" class="col-md-4">Mail</a></li>
+				</ul>
 			</div>
 		</div>
-	
+		<div class="big-buttons">
+			<div class="col-md-12" id="box4">
+			</div>
+		</div>
+<script src="JS/jquery.min.js"></script>
+<script src="JS/main.js"></script>
 </body>
 </html>

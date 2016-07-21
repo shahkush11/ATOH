@@ -1,8 +1,9 @@
 
 ----------------------------------------------------------------------
-Social Drops Icons by ONEXTRAPIXEL & Being Creative
-This freebie is brought to you by onextrapixel.com and http://beingcreative.co/
+CSS3 Social Media Button Set by ONEXTRAPIXEL & Brusheezy
+This freebie is brought to you by onextrapixel.com & brusheezy.com/
 ----------------------------------------------------------------------
+—-
 
 TERMS OF USE:
 
@@ -12,7 +13,7 @@ However, you may not sell, modify or distribute any of the files on any website,
 
 If you'd like to share this file with others, please direct them to our original release where they can download their copy.
 
-We also welcome and greatly appreciate any form of credits back to our product.
+We also welcome and greatly appreciate any form of credit back to our product.
 
 Thank you for supporting our website and we hope you enjoy our product. 
 
