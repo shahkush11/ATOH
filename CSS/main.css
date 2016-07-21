@@ -1,0 +1,28 @@
+body{
+	background-image: url(../Assets/Backgrounds/jpg/background-6.jpg);
+	background-size: cover;
+}
+#header{
+	background-image: url(../Assets/Backgrounds/jpg/background-3.jpg);
+	background-size: cover;
+}
+#menu a{
+	text-decoration: none;
+	color: black;
+}
+#menu1, #box1{
+	background-image: url(../Assets/Backgrounds/jpg/background-1.jpg);
+	background-size: cover;
+}
+#menu2, #box2{
+	background-image: url(../Assets/Backgrounds/jpg/background-8.jpg);
+	background-size: cover;
+}
+#menu3, #box3{
+	background-image: url(../Assets/Backgrounds/jpg/background-4.jpg);
+	background-size: cover;
+}
+#menu4, #box4{
+	background-image: url(../Assets/Backgrounds/jpg/background-3.jpg);
+	background-size: cover;
+}
